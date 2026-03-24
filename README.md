@@ -37,7 +37,6 @@ The files shall be organized as:
 |---checkpoint
 |	---model_base.pth
 |
-|
 ```
 
 
@@ -45,7 +44,7 @@ The files shall be organized as:
 ### Train
 
 ```
-bash train.bash
+bash train.sh
 ```
 
 
@@ -67,7 +66,7 @@ tokenizer = BertTokenizer.from_pretrained(bert_localpath)
 ### Evaluation
 
 ```
-bash eval.bash
+bash eval.sh
 ```
 
 
